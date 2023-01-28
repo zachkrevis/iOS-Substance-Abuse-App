@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F335D7C929260BDC00F4E9FE /* Calendar+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F335D7C829260BDC00F4E9FE /* Calendar+Functions.swift */; };
+		F3830B0B2929A03E00488D4B /* SubstanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3830B0A2929A03E00488D4B /* SubstanceView.swift */; };
+		F3830B0F2929A70A00488D4B /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3830B0E2929A70A00488D4B /* GraphView.swift */; };
+		F3830B14292B2D9900488D4B /* Calendar View.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3830B13292B2D9900488D4B /* Calendar View.swift */; };
+		F3830B16292B341800488D4B /* SavingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3830B15292B341800488D4B /* SavingView.swift */; };
+		F38AF7372945C11C00956C87 /* newSubstance.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38AF7362945C11C00956C87 /* newSubstance.swift */; };
+		F38AF73B29738B2200956C87 /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38AF73A29738B2200956C87 /* CalendarManager.swift */; };
+		F38AF73D29738FF000956C87 /* CustomDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38AF73C29738FF000956C87 /* CustomDatePicker.swift */; };
+		F3B1ACBA29446B2B00979A8C /* AddDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B1ACB929446B2B00979A8C /* AddDayView.swift */; };
+		F3F2DAFB291F907900C23666 /* Substance_Abuse_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2DAFA291F907900C23666 /* Substance_Abuse_AppApp.swift */; };
+		F3F2DAFD291F907900C23666 /* DashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2DAFC291F907900C23666 /* DashView.swift */; };
+		F3F2DAFF291F907A00C23666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F2DAFE291F907A00C23666 /* Assets.xcassets */; };
+		F3F2DB02291F907A00C23666 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3F2DB01291F907A00C23666 /* Preview Assets.xcassets */; };
+		F3F2DB0C291F907A00C23666 /* Substance_Abuse_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2DB0B291F907A00C23666 /* Substance_Abuse_AppTests.swift */; };
+		F3F2DB16291F907A00C23666 /* Substance_Abuse_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2DB15291F907A00C23666 /* Substance_Abuse_AppUITests.swift */; };
+		F3F2DB18291F907A00C23666 /* Substance_Abuse_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2DB17291F907A00C23666 /* Substance_Abuse_AppUITestsLaunchTests.swift */; };
+		F3F2DB2929203DE100C23666 /* DaysInRecoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2DB2829203DE100C23666 /* DaysInRecoverView.swift */; };
+		F3F2DB2B29204A7200C23666 /* SavedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2DB2A29204A7200C23666 /* SavedView.swift */; };
+		F3F2DB2D29204D2900C23666 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2DB2C29204D2900C23666 /* SliderView.swift */; };
+		F3F2DB2F292063CE00C23666 /* MilestoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2DB2E292063CE00C23666 /* MilestoneView.swift */; };
+		F3F2DB312922CE8F00C23666 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2DB302922CE8F00C23666 /* WeekView.swift */; };
+		F3F2DB34292433DB00C23666 /* Recovery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3F2DB32292433DA00C23666 /* Recovery.xcdatamodeld */; };
+		F3F2DB362924BD1900C23666 /* SubstanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2DB352924BD1900C23666 /* SubstanceManager.swift */; };
+		F3F2DB392925613B00C23666 /* SubstanceListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F2DB382925613B00C23666 /* SubstanceListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3F2DB08291F907A00C23666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3F2DAEF291F907900C23666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3F2DAF6291F907900C23666;
+			remoteInfo = "Substance Abuse App";
+		};
+		F3F2DB12291F907A00C23666 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3F2DAEF291F907900C23666 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3F2DAF6291F907900C23666;
+			remoteInfo = "Substance Abuse App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F38AF75D29738FF000956C87 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F335D7C829260BDC00F4E9FE /* Calendar+Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar+Functions.swift"; sourceTree = "<group>"; };
+		F3830B0A2929A03E00488D4B /* SubstanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstanceView.swift; sourceTree = "<group>"; };
+		F3830B0E2929A70A00488D4B /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		F3830B13292B2D9900488D4B /* Calendar View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Calendar View.swift"; sourceTree = "<group>"; };
+		F3830B15292B341800488D4B /* SavingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavingView.swift; sourceTree = "<group>"; };
+		F38AF7362945C11C00956C87 /* newSubstance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newSubstance.swift; sourceTree = "<group>"; };
+		F38AF73A29738B2200956C87 /* CalendarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
+		F38AF73C29738FF000956C87 /* CustomDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDatePicker.swift; sourceTree = "<group>"; };
+		F38AF74629738FF000956C87 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F38AF74829738FF000956C87 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F38AF76229738FF000956C87 /* Substance Abuse App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Substance Abuse App.entitlements"; sourceTree = "<group>"; };
+		F3B1ACB929446B2B00979A8C /* AddDayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDayView.swift; sourceTree = "<group>"; };
+		F3F2DAF7291F907900C23666 /* Substance Abuse App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Substance Abuse App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F2DAFA291F907900C23666 /* Substance_Abuse_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substance_Abuse_AppApp.swift; sourceTree = "<group>"; };
+		F3F2DAFC291F907900C23666 /* DashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashView.swift; sourceTree = "<group>"; };
+		F3F2DAFE291F907A00C23666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3F2DB01291F907A00C23666 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3F2DB07291F907A00C23666 /* Substance Abuse AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Substance Abuse AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F2DB0B291F907A00C23666 /* Substance_Abuse_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substance_Abuse_AppTests.swift; sourceTree = "<group>"; };
+		F3F2DB11291F907A00C23666 /* Substance Abuse AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Substance Abuse AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F2DB15291F907A00C23666 /* Substance_Abuse_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substance_Abuse_AppUITests.swift; sourceTree = "<group>"; };
+		F3F2DB17291F907A00C23666 /* Substance_Abuse_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Substance_Abuse_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3F2DB2829203DE100C23666 /* DaysInRecoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysInRecoverView.swift; sourceTree = "<group>"; };
+		F3F2DB2A29204A7200C23666 /* SavedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedView.swift; sourceTree = "<group>"; };
+		F3F2DB2C29204D2900C23666 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		F3F2DB2E292063CE00C23666 /* MilestoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MilestoneView.swift; sourceTree = "<group>"; };
+		F3F2DB302922CE8F00C23666 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		F3F2DB33292433DB00C23666 /* Recovery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Recovery.xcdatamodel; sourceTree = "<group>"; };
+		F3F2DB352924BD1900C23666 /* SubstanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstanceManager.swift; sourceTree = "<group>"; };
+		F3F2DB382925613B00C23666 /* SubstanceListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubstanceListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3F2DAF4291F907900C23666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F2DB04291F907A00C23666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F2DB0E291F907A00C23666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3830B0C2929A6E700488D4B /* DashView */ = {
+			isa = PBXGroup;
+			children = (
+				F3F2DAFC291F907900C23666 /* DashView.swift */,
+				F3F2DB2829203DE100C23666 /* DaysInRecoverView.swift */,
+				F3F2DB2A29204A7200C23666 /* SavedView.swift */,
+				F3F2DB2C29204D2900C23666 /* SliderView.swift */,
+				F3F2DB2E292063CE00C23666 /* MilestoneView.swift */,
+				F3F2DB302922CE8F00C23666 /* WeekView.swift */,
+			);
+			path = DashView;
+			sourceTree = "<group>";
+		};
+		F3830B0D2929A6FE00488D4B /* GraphView */ = {
+			isa = PBXGroup;
+			children = (
+				F3830B0E2929A70A00488D4B /* GraphView.swift */,
+			);
+			path = GraphView;
+			sourceTree = "<group>";
+		};
+		F3830B12292B1C8500488D4B /* Calendar View */ = {
+			isa = PBXGroup;
+			children = (
+				F3830B13292B2D9900488D4B /* Calendar View.swift */,
+				F38AF73C29738FF000956C87 /* CustomDatePicker.swift */,
+			);
+			path = "Calendar View";
+			sourceTree = "<group>";
+		};
+		F3830B17292B341C00488D4B /* SavingView */ = {
+			isa = PBXGroup;
+			children = (
+				F3830B15292B341800488D4B /* SavingView.swift */,
+			);
+			path = SavingView;
+			sourceTree = "<group>";
+		};
+		F38AF74529738FF000956C87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F38AF74629738FF000956C87 /* WidgetKit.framework */,
+				F38AF74829738FF000956C87 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F38AF76329738FF000956C87 /* SShared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SShared;
+			sourceTree = "<group>";
+		};
+		F3B1ACB829446B1700979A8C /* AddDay */ = {
+			isa = PBXGroup;
+			children = (
+				F3B1ACB929446B2B00979A8C /* AddDayView.swift */,
+			);
+			path = AddDay;
+			sourceTree = "<group>";
+		};
+		F3F2DAEE291F907900C23666 = {
+			isa = PBXGroup;
+			children = (
+				F38AF76329738FF000956C87 /* SShared */,
+				F3F2DAF9291F907900C23666 /* Substance Abuse App */,
+				F3F2DB0A291F907A00C23666 /* Substance Abuse AppTests */,
+				F3F2DB14291F907A00C23666 /* Substance Abuse AppUITests */,
+				F38AF74529738FF000956C87 /* Frameworks */,
+				F3F2DAF8291F907900C23666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3F2DAF8291F907900C23666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3F2DAF7291F907900C23666 /* Substance Abuse App.app */,
+				F3F2DB07291F907A00C23666 /* Substance Abuse AppTests.xctest */,
+				F3F2DB11291F907A00C23666 /* Substance Abuse AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3F2DAF9291F907900C23666 /* Substance Abuse App */ = {
+			isa = PBXGroup;
+			children = (
+				F38AF76229738FF000956C87 /* Substance Abuse App.entitlements */,
+				F3F2DB32292433DA00C23666 /* Recovery.xcdatamodeld */,
+				F3F2DAFA291F907900C23666 /* Substance_Abuse_AppApp.swift */,
+				F3F2DB372924BD1E00C23666 /* View Models */,
+				F3F2DB2429203D6D00C23666 /* Views */,
+				F3F2DAFE291F907A00C23666 /* Assets.xcassets */,
+				F3F2DB00291F907A00C23666 /* Preview Content */,
+			);
+			path = "Substance Abuse App";
+			sourceTree = "<group>";
+		};
+		F3F2DB00291F907A00C23666 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3F2DB01291F907A00C23666 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3F2DB0A291F907A00C23666 /* Substance Abuse AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3F2DB0B291F907A00C23666 /* Substance_Abuse_AppTests.swift */,
+			);
+			path = "Substance Abuse AppTests";
+			sourceTree = "<group>";
+		};
+		F3F2DB14291F907A00C23666 /* Substance Abuse AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3F2DB15291F907A00C23666 /* Substance_Abuse_AppUITests.swift */,
+				F3F2DB17291F907A00C23666 /* Substance_Abuse_AppUITestsLaunchTests.swift */,
+			);
+			path = "Substance Abuse AppUITests";
+			sourceTree = "<group>";
+		};
+		F3F2DB2429203D6D00C23666 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3B1ACB829446B1700979A8C /* AddDay */,
+				F3830B0D2929A6FE00488D4B /* GraphView */,
+				F3830B0C2929A6E700488D4B /* DashView */,
+				F3F2DB382925613B00C23666 /* SubstanceListView.swift */,
+				F3830B0A2929A03E00488D4B /* SubstanceView.swift */,
+				F3830B12292B1C8500488D4B /* Calendar View */,
+				F3830B17292B341C00488D4B /* SavingView */,
+				F38AF7362945C11C00956C87 /* newSubstance.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3F2DB372924BD1E00C23666 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3F2DB352924BD1900C23666 /* SubstanceManager.swift */,
+				F335D7C829260BDC00F4E9FE /* Calendar+Functions.swift */,
+				F38AF73A29738B2200956C87 /* CalendarManager.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3F2DAF6291F907900C23666 /* Substance Abuse App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F2DB1B291F907A00C23666 /* Build configuration list for PBXNativeTarget "Substance Abuse App" */;
+			buildPhases = (
+				F3F2DAF3291F907900C23666 /* Sources */,
+				F3F2DAF4291F907900C23666 /* Frameworks */,
+				F3F2DAF5291F907900C23666 /* Resources */,
+				F38AF75D29738FF000956C87 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Substance Abuse App";
+			productName = "Substance Abuse App";
+			productReference = F3F2DAF7291F907900C23666 /* Substance Abuse App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3F2DB06291F907A00C23666 /* Substance Abuse AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F2DB1E291F907A00C23666 /* Build configuration list for PBXNativeTarget "Substance Abuse AppTests" */;
+			buildPhases = (
+				F3F2DB03291F907A00C23666 /* Sources */,
+				F3F2DB04291F907A00C23666 /* Frameworks */,
+				F3F2DB05291F907A00C23666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3F2DB09291F907A00C23666 /* PBXTargetDependency */,
+			);
+			name = "Substance Abuse AppTests";
+			productName = "Substance Abuse AppTests";
+			productReference = F3F2DB07291F907A00C23666 /* Substance Abuse AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3F2DB10291F907A00C23666 /* Substance Abuse AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3F2DB21291F907A00C23666 /* Build configuration list for PBXNativeTarget "Substance Abuse AppUITests" */;
+			buildPhases = (
+				F3F2DB0D291F907A00C23666 /* Sources */,
+				F3F2DB0E291F907A00C23666 /* Frameworks */,
+				F3F2DB0F291F907A00C23666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3F2DB13291F907A00C23666 /* PBXTargetDependency */,
+			);
+			name = "Substance Abuse AppUITests";
+			productName = "Substance Abuse AppUITests";
+			productReference = F3F2DB11291F907A00C23666 /* Substance Abuse AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3F2DAEF291F907900C23666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F3F2DAF6291F907900C23666 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F3F2DB06291F907A00C23666 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F3F2DAF6291F907900C23666;
+					};
+					F3F2DB10291F907A00C23666 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F3F2DAF6291F907900C23666;
+					};
+				};
+			};
+			buildConfigurationList = F3F2DAF2291F907900C23666 /* Build configuration list for PBXProject "Substance Abuse App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3F2DAEE291F907900C23666;
+			productRefGroup = F3F2DAF8291F907900C23666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3F2DAF6291F907900C23666 /* Substance Abuse App */,
+				F3F2DB06291F907A00C23666 /* Substance Abuse AppTests */,
+				F3F2DB10291F907A00C23666 /* Substance Abuse AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3F2DAF5291F907900C23666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F2DB02291F907A00C23666 /* Preview Assets.xcassets in Resources */,
+				F3F2DAFF291F907A00C23666 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F2DB05291F907A00C23666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F2DB0F291F907A00C23666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3F2DAF3291F907900C23666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F2DB2929203DE100C23666 /* DaysInRecoverView.swift in Sources */,
+				F3830B14292B2D9900488D4B /* Calendar View.swift in Sources */,
+				F3F2DB2F292063CE00C23666 /* MilestoneView.swift in Sources */,
+				F38AF73B29738B2200956C87 /* CalendarManager.swift in Sources */,
+				F3830B16292B341800488D4B /* SavingView.swift in Sources */,
+				F38AF7372945C11C00956C87 /* newSubstance.swift in Sources */,
+				F3F2DB392925613B00C23666 /* SubstanceListView.swift in Sources */,
+				F3F2DB362924BD1900C23666 /* SubstanceManager.swift in Sources */,
+				F38AF73D29738FF000956C87 /* CustomDatePicker.swift in Sources */,
+				F3F2DB2B29204A7200C23666 /* SavedView.swift in Sources */,
+				F3830B0B2929A03E00488D4B /* SubstanceView.swift in Sources */,
+				F3830B0F2929A70A00488D4B /* GraphView.swift in Sources */,
+				F3F2DB312922CE8F00C23666 /* WeekView.swift in Sources */,
+				F335D7C929260BDC00F4E9FE /* Calendar+Functions.swift in Sources */,
+				F3F2DB34292433DB00C23666 /* Recovery.xcdatamodeld in Sources */,
+				F3F2DAFD291F907900C23666 /* DashView.swift in Sources */,
+				F3B1ACBA29446B2B00979A8C /* AddDayView.swift in Sources */,
+				F3F2DAFB291F907900C23666 /* Substance_Abuse_AppApp.swift in Sources */,
+				F3F2DB2D29204D2900C23666 /* SliderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F2DB03291F907A00C23666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F2DB0C291F907A00C23666 /* Substance_Abuse_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F2DB0D291F907A00C23666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F2DB18291F907A00C23666 /* Substance_Abuse_AppUITestsLaunchTests.swift in Sources */,
+				F3F2DB16291F907A00C23666 /* Substance_Abuse_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3F2DB09291F907A00C23666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3F2DAF6291F907900C23666 /* Substance Abuse App */;
+			targetProxy = F3F2DB08291F907A00C23666 /* PBXContainerItemProxy */;
+		};
+		F3F2DB13291F907A00C23666 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3F2DAF6291F907900C23666 /* Substance Abuse App */;
+			targetProxy = F3F2DB12291F907A00C23666 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F3F2DB19291F907A00C23666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3F2DB1A291F907A00C23666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3F2DB1C291F907A00C23666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Substance Abuse App/Substance Abuse App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Substance Abuse App/Preview Content\"";
+				DEVELOPMENT_TEAM = X2FB8LMRVL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZKrevis.Substance-Abuse-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F3F2DB1D291F907A00C23666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Substance Abuse App/Substance Abuse App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Substance Abuse App/Preview Content\"";
+				DEVELOPMENT_TEAM = X2FB8LMRVL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZKrevis.Substance-Abuse-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F3F2DB1F291F907A00C23666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2FB8LMRVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZKrevis.Substance-Abuse-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Substance Abuse App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Substance Abuse App";
+			};
+			name = Debug;
+		};
+		F3F2DB20291F907A00C23666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2FB8LMRVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZKrevis.Substance-Abuse-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Substance Abuse App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Substance Abuse App";
+			};
+			name = Release;
+		};
+		F3F2DB22291F907A00C23666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2FB8LMRVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZKrevis.Substance-Abuse-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Substance Abuse App";
+			};
+			name = Debug;
+		};
+		F3F2DB23291F907A00C23666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X2FB8LMRVL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ZKrevis.Substance-Abuse-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Substance Abuse App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3F2DAF2291F907900C23666 /* Build configuration list for PBXProject "Substance Abuse App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F2DB19291F907A00C23666 /* Debug */,
+				F3F2DB1A291F907A00C23666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F2DB1B291F907A00C23666 /* Build configuration list for PBXNativeTarget "Substance Abuse App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F2DB1C291F907A00C23666 /* Debug */,
+				F3F2DB1D291F907A00C23666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F2DB1E291F907A00C23666 /* Build configuration list for PBXNativeTarget "Substance Abuse AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F2DB1F291F907A00C23666 /* Debug */,
+				F3F2DB20291F907A00C23666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3F2DB21291F907A00C23666 /* Build configuration list for PBXNativeTarget "Substance Abuse AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3F2DB22291F907A00C23666 /* Debug */,
+				F3F2DB23291F907A00C23666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F3F2DB32292433DA00C23666 /* Recovery.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F3F2DB33292433DB00C23666 /* Recovery.xcdatamodel */,
+			);
+			currentVersion = F3F2DB33292433DB00C23666 /* Recovery.xcdatamodel */;
+			path = Recovery.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F3F2DAEF291F907900C23666 /* Project object */;
+}
